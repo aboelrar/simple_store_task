@@ -1,0 +1,45 @@
+name: flutter_task
+description: A new Flutter application.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  http: ^0.13.4
+  flutter_bloc: ^8.0.1
+  freezed_annotation:
+  shared_preferences: ^2.0.13
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner:
+  flutter_lints: ^1.0.0
+  freezed: ^1.1.1
+  fluttertoast: ^8.0.9
+
+
+
+
+
+flutter:
+
+
+  uses-material-design: true
+  assets:
+    - assets/locale/en.json
+    - assets/images/
+
+
